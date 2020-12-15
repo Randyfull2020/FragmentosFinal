@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="130dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="top"
+    android:layout_marginLeft="33dp"
+    android:layout_marginTop="20dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/gamev"
+            android:layout_width="155dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/gamev"
+            android:text="Titulo"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rbClasificacion"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="179dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/txtTitulo"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/gamev"
+            android:numStars="5"
+            android:rating="0" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/rbClasificacion"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="-157dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/gamev"
+            android:width="0dp"
+            android:text="Descripcion"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceBody2" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

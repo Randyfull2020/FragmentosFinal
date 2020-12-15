@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnTopJuegos"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nuevotop"
+        android:text="Top Juegos" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnTopRanked"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nuevoranked"
+        android:text="Lo mas Rankeado" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnFreetoPlay"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nuevofree"
+        android:text="Free to Play" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnOldSchool"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nuevoold"
+        android:text="La Vieja Escuela" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnCategorias"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categorias" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="?android:attr/textColorPrimary"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnMisJuegos"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis juegos"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnPerfil"
+        style="@style/Widget.Ebony.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:visibility="visible" />
+
+</merge>
